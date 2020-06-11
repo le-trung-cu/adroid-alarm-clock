@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Alarm</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete">Xóa</string>
+    <string name="edit">Thay đổi</string>
+    <string name="tomorrow">Ngày mai</string>
+    <string name="today">Hôm nay</string>
+    <string name="ok">Đặt báo thức</string>
+    <string name="pm">PM</string>
+    <string name="am">AM</string>
+    <string name="add_alarm">Add Alarm</string>
+</resources>

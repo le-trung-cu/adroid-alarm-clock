@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding">
+    <TextView
+        android:id="@+id/txtTimeHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="04:55 PM"
+        android:textSize="@dimen/text_main"/>
+    <TextView
+        android:id="@+id/txtTimeHumanRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngay mai"
+        android:layout_below="@id/txtTimeHeading"
+        android:textSize="@dimen/text_sub"/>
+    <ToggleButton
+        android:id="@+id/toggleOnOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
